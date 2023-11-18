@@ -93,11 +93,13 @@ img {
 }
 
 .page-nav {
+    gap: 40px;
     align-items: center;
     display: flex;
 }
 
 .navigation {
+    gap: 40px;
     display: flex;
 }
 
@@ -107,8 +109,8 @@ img {
 }
 
 .contact-link {
+    gap: 40px;
     display: flex;
-    column-gap: 40px;
 }
 
 .page-logo {
@@ -259,6 +261,7 @@ img {
 
 /* ====================== TEAM-SECTION ======================*/
 .team-list-item {
+    margin-bottom: 8px;
     text-align: center;
     color: #2E2F42;
     font-size: 20px;
@@ -281,6 +284,7 @@ img {
 }
 
 .our-portfolio-item{
+    width: calc((100% - 72px) / 4);
     padding: 32px 16px;
 }
 
@@ -339,7 +343,7 @@ img {
 
 
 .portfolio-text {
-    padding: 32px 0;
+    padding: 32px 16px;
 }
 
 .name-list-portfolio {
