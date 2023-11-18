@@ -70,6 +70,10 @@ img {
 }
 /* ===================== Head section ===================== */
 
+.page-header {
+    border-bottom: 1px solid #e7e9fc
+}
+
 .section {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -87,8 +91,8 @@ img {
 }
 
 .navigation {
+    gap: 40px;
     display: flex;
-    column-gap: 40px;
 }
 
 .padding-link {
@@ -174,6 +178,8 @@ img {
 }
 
 .hero-button {
+    border-radius: 4px;
+    border: none;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -208,27 +214,28 @@ img {
 }
 
 .name-list-item {
+    margin-bottom: 8px
     text-align: center;
-    padding-top: 32px;
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-sipacng: 0.02em;
+    padding: 0px 16px;
 }
 
 
 .name-list-paragraph {
+    /* margin-bottom: 8px; */
     width: 264px;
     text-align: center;
-    padding-bottom: 32px;
-    padding-top: 8px;
     color: #434455;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 0px 16px;
 }
 
 .text-left {
@@ -236,10 +243,14 @@ img {
 }
 
 .advantage {
-    width: calc((100%-72px) /4);
+    gap: 24px;
+    
     justify-content: center;
     display: flex;
-    column-gap: 24px;
+}
+
+.advantage-item {
+    width: calc((100%-72px) /4);
 }
 
 .footer-paragraph {
@@ -265,7 +276,7 @@ img {
 
 .hero-section {
         padding-top: 188px;
-            padding-bottom: 188px;
+        padding-bottom: 188px;
     background: #2E2F42;
 
 }
@@ -275,19 +286,16 @@ img {
 }
 
 .our-team {
-    width: calc((100%-72px) /4);
     justify-content: center;
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
 }
 
 .our-team-section {
-   
     background: #F4F4FD;
 }
 
 .our-portfolio{
-    width: calc((100%-72px) /3);
     justify-content: center;
     display: flex;
     column-gap: 24px;
@@ -296,13 +304,35 @@ img {
 }
 
 
-.our-portfolio-item,
 .out-team-item {
+    padding: 32px 16px
+    border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 48px) / 3);
     background-color: #FFFFFF;
 }
 
+.portfolio-text{
+padding: 32px 0;
+}
+
+.our-team-description{
+    padding: 32px 0;
+}
+
 .footer-section {
-    padding-top: 101.5px;
-    padding-bottom: 100px;
+    padding: 100px 0;
     background: #2E2F42;
+}
+
+.page-logo-footer{
+    margin-bottom: 16px;
+    display: inline-block;
+    color: #4D5AE5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-right: 76px;
 }
