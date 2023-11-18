@@ -272,7 +272,6 @@ img {
 }
 
 .team-list-paragraph{
-    width: 264px;
     text-align: center;
     color: #434455;
     font-size: 16px;
@@ -282,6 +281,8 @@ img {
     letter-spacing: 0.02em;
     padding: 0px 16px;
 }
+
+ /* width: 264px; delit */
 
 .our-portfolio-item{
     width: calc((100% - 72px) / 4);
